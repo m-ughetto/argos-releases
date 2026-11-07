@@ -45,7 +45,7 @@ Argos se met ensuite à jour tout seul. Quand une nouvelle version est prête, l
 | Canal | Contenu |
 |---|---|
 | **Stable** | Les versions publiées depuis `master`, par exemple `2026.1.0` ou `2026.1.1`. |
-| **Préversions** | Chaque évolution dès qu'elle est intégrée, par exemple `2026.2.0-beta.3`. Plus fréquentes, moins éprouvées. |
+| **Préversions** | Les versions de test de la prochaine version stable, par exemple `2026.2.0-beta.3`. Plus fréquentes, moins éprouvées. |
 
 Le canal se choisit en cliquant sur le logo **Argos**, en haut à gauche de la fenêtre.
 
