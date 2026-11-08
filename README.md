@@ -49,6 +49,16 @@ Argos se met ensuite à jour tout seul. Quand une nouvelle version est prête, l
 
 Le canal se choisit en cliquant sur le logo **Argos**, en haut à gauche de la fenêtre.
 
+## Confidentialité
+
+Argos fonctionne sur votre poste et n'envoie rien à son auteur : ni statistiques, ni télémétrie, ni compte à créer.
+
+- **Vos dépôts** restent sur votre machine. Argos ne parle qu'aux serveurs que vous utilisez déjà : vos distants Git, GitHub pour les pull requests, et Jira ou Linear si vous les connectez.
+- **Les identifiants** (connexion GitHub, Jira ou Linear) sont rangés dans le gestionnaire d'identifiants de Windows, jamais dans un fichier. « Déconnecter » les supprime.
+- **La connexion à Jira** passe par un petit relais qui ajoute le secret de l'application Atlassian à l'échange de jetons. Il ne stocke et ne journalise rien.
+- **Les mises à jour** sont téléchargées depuis ce dépôt GitHub.
+- **Les réglages** (groupes, workflows, sites Jira) sont dans `%APPDATA%\Argos`, sur votre poste.
+
 ## À propos
 
 Argos est développé par Mathias Ughetto pour son usage et celui de ses collègues. Le code source est privé, et ce dépôt sert seulement à distribuer les versions.
